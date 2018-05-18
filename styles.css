@@ -53,7 +53,14 @@ ul {
 }
 
 .todo-checkbox {
+  float: left;
   margin: 10px;
+}
+
+.todo-text {
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
 }
 
 .todo-container {
@@ -63,4 +70,8 @@ ul {
 
 .todo-container:first-of-type {
   border-top: 1px solid #333;
+}
+
+.clear {
+  clear: both;
 }
